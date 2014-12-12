@@ -1,5 +1,5 @@
 
-# Enabling on ll, la, l
+# Enabling ll, la, l
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
