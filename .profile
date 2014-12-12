@@ -1,10 +1,10 @@
-# Turning on console colors like in default ubuntu behavior
-# This is not done as robust as in ubuntu,
-#     there seems to be a colors directory that doesn't exist
-alias ls='ls -G'
+# Enabling on ll, la, l
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Turning on console colors like in default ubuntu behavior
+alias ls='ls -G'
 alias grep='grep --color=always'
 alias fgrep='fgrep --color=always'
 alias egrep='egrep --color=always'
