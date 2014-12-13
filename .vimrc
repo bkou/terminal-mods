@@ -1,22 +1,24 @@
 
-" Indent automatically depending on filetype
-filetype indent on
-set autoindent
+" BEGIN TERMINAL-MODS
+" Normally we use vim-extensions. If you want true vi-compatibility
+" remove change the following statements
+set nocompatible	" Use Vim defaults instead of 100% vi compatibility
+set backspace=indent,eol,start	" more powerful backspacing
 
-" Turn on line numbering. Turn it off with "set nonu" 
-set number
+" Now we set some defaults for the editor
+set history=50		" keep 50 lines of command line history
+set ruler		" show the cursor position all the time
 
-" Set syntax on
-syntax on
+" modelines have historically been a source of security/resource
+" vulnerabilities -- disable by default, even when 'nocompatible' is set
+set nomodeline
 
-" Case insensitive search
-set ic
+" Suffixes that get lower priority when doing tab completion for filenames.
+" These are files we are not likely to want to edit or read.
+set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
-" Higlhight search
-set hls
-
-" Wrap text instead of being on one line
-set lbr
-
-" Change colorscheme from default to delek
-" colorscheme delek
+" Vim5 and later versions support syntax highlighting. Uncommenting the next
+" line enables syntax highlighting by default.
+if has("syntax")
+  syntax on
+endif

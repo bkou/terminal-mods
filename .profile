@@ -1,4 +1,6 @@
 
+#BEGIN TERMINAL MODS
+
 # Enabling ll, la, l
 alias ll='ls -alF'
 alias la='ls -A'
