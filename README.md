@@ -21,13 +21,10 @@ Features:
 -------------
 Most of the Ubuntu vimrc seems to be specific to debian and not applicable to a mac environment. I've grabbed everything I saw that could apply to mac but the only thing it seems you'd notice is vim color. As always, be sure not to destroy content already in .vimrc.
 
-I have also added a setting of my own, mouse=a which adds the ability to click your cursor to mouse location.
-
     cat .vimrc >> ~/.vimrc
 
 Features:
  * colors
- * click relocation of cursor
 
 See Also
 ------------

@@ -22,8 +22,3 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 if has("syntax")
   syntax on
 endif
-
-" BEGIN BKOU'S PERSONAL SETTINGS
-
-" Ability to use mouse to click the cursor to location.
-set mouse=a
