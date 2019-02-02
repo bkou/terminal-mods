@@ -8,9 +8,9 @@ I've made this project GPLv3 since it copies from the Ubuntu bashrc and vimrc, w
 
 .profile
 -------------
-.profile is mac's equivalent to bashrc. In ubuntu this is where colors for ls and grep are activated. Copy into a mac .bashrc equivalent, ~/.profile is probably the best. Be sure not to destroy content already in those files.
+.profile is mac's equivalent to bashrc. In ubuntu this is where colors for ls and grep are activated. Copy into a mac .bashrc equivalent, ~~~/.profile~~ ~/.bash_profile is probably the best. Be sure not to destroy content already in those files.
 
-    cat .profile >> ~/.profile
+    cat .profile >> ~/.bash_profile
 
 Features:
  * ll, la, l
